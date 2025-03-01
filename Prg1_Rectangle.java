@@ -11,6 +11,6 @@ public class Prg1_Rectangle {
 		double perimeter = 2*(length+width);
 		System.out.println("The Area of Rectangle is : "+ area);
 		System.out.println("The Perimeter of Rectangle is : "+ perimeter);
+		sc.close();
 	}
-
 }
