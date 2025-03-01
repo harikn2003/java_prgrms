@@ -19,5 +19,6 @@ public class Prg7_Armstrong {
         } else {
             System.out.println("The number is not a Armstrong.");
         }
+	sc.close();
 	}
 }
