@@ -11,6 +11,6 @@ public class Prg2_circle {
 		double perimeter = 2*3.14*radius;
 		System.out.println("The Area of Circle is : "+ area);
 		System.out.println("The Perimeter of Circle is : "+ perimeter);
+		sc.close();
 	}
-
 }
