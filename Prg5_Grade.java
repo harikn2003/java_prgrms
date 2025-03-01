@@ -41,6 +41,7 @@ public class Prg5_Grade {
 		default :
 			System.out.print("Input incorrect!");
 		}
+		sc.close();
 	}
 
 }
