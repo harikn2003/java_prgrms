@@ -19,7 +19,6 @@ public class Prg3_Admission {
 		else {
 			System.out.println("Eligibility check failed");
 		}
-		
+		sc.close();
 	}
-
 }
