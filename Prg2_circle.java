@@ -9,8 +9,8 @@ public class Prg2_circle {
 		double radius = sc.nextDouble();
 		double area = 3.14*radius*radius;
 		double perimeter = 2*3.14*radius;
-		System.out.println("The Area of Rectangle is : "+ area);
-		System.out.println("The Perimeter of Rectangle is : "+ perimeter);
+		System.out.println("The Area of Circle is : "+ area);
+		System.out.println("The Perimeter of Circle is : "+ perimeter);
 	}
 
 }
