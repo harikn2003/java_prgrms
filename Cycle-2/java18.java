@@ -1,26 +1,19 @@
 package Cycle2;
 import java.util.Scanner;
-
 public class java18 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter number to check if palindrome or not : ");
-		int n = sc.nextInt();
-		int og = n;
-		int reversed = 0;
-		while (n > 0) {
-            int digit = n % 10; 
-            reversed = reversed * 10 + digit; 
-            n = n / 10; 
-        }
-
-        if (reversed == og) {
-            System.out.println("The number is a palindrome.");
-        } else {
-            System.out.println("The number is not a palindrome.");
-        }
-        sc.close();
-		
+		System.out.println("Enter the string:");
+		String str = sc.nextLine().toLowerCase();
+		String revString = "";
+		for (int i = str.length() - 1; i >= 0; i--) {
+			revString += str.charAt(i);
+		}
+		if (str.equals(revString)) {
+			System.out.println("Palindrome");
+		} else {
+			System.out.println("Not a palindrome");
+		}
+		sc.close();
 	}
-
 }
